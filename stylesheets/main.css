@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#header {
+  height: 100px;
+  width: 100%;
+  background: #ff0000;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#header .logo {
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+}
+
+#dropbtn {
+  background-color: #ff0000;
+  text-align: center;
+  cursor: pointer;
+  line-height: 100px;
+  padding: 0px 25px;
+}
+
+#dropdown {
+  position: absolute;
+  display: none;
+  right: 0;
+  min-width: 160px;
+  z-index: 2;
+}
+
+#menu:hover #dropdown {
+  display: block;
+}
+
+#menu:hover #dropbtn {
+  background: #aa0000;
+}
+
+#dropdown .button {
+  background-color: #ff0000;
+  text-align: center;
+  border: 1px solid #000000
+}
+
+#dropdown .button:hover {
+  background-color: #aa0000
+}
+
+#core {
+  display: flex;
+  flex-flow: column;
+}
+
+#footer {
+  background-color: #ff0000;
+  height: 25px;
+  width: 100%;
+}
