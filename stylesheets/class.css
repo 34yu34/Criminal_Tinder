@@ -8,3 +8,13 @@
 .spacer {
   flex-grow: 1;
 }
+
+.column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.line {
+  display: flex;
+  flex-flow: row nowrap;
+}

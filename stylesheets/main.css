@@ -4,6 +4,18 @@ body {
   flex-flow: column nowrap;
 }
 
+a {
+  color: #0040FF;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: #5258EB;
+}
+
 #header {
   height: 100px;
   width: 100%;
@@ -20,10 +32,21 @@ body {
 
 #dropbtn {
   background-color: #ff0000;
-  text-align: center;
   cursor: pointer;
-  line-height: 100px;
+  height: 100px;
+  width: 80px;
   padding: 0px 25px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+#dropbtn .rectangle {
+  width: 50%;
+  height: 10%;
+  margin: 2px auto;
+  background-color: black;
 }
 
 #dropdown {
@@ -45,7 +68,7 @@ body {
 #dropdown .button {
   background-color: #ff0000;
   text-align: center;
-  border: 1px solid #000000
+  padding: 3px 0px;
 }
 
 #dropdown .button:hover {
@@ -56,6 +79,38 @@ body {
   display: flex;
   flex-flow: column;
 }
+
+.profile {
+  width: 70%;
+  background: #eeeeee;
+  margin: 25px auto;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile img {
+  height: 80%;
+  width: 25%;
+  margin: auto;
+}
+
+.profile .column {
+  width: 35%;
+}
+
+.profile .line {
+  margin: 3px 0px;
+}
+
+.profile a {
+  color: #ff0000;
+}
+
+.profile a:hover {
+  color: #aa0000;
+}
+
 
 #footer {
   background-color: #ff0000;
