@@ -1,0 +1,11 @@
+#pane-image-submit {
+  flex-grow: 1;
+}
+
+#pane-image-submit h1 {
+  text-align: center;
+}
+
+#pane-image-submit input, #pane-image-submit .button {
+  margin: 5px auto;
+}

@@ -6,8 +6,8 @@
   <title>Criminal Tinder</title>
   <link rel="stylesheet" href="stylesheets/main.css">
   <link rel="stylesheet" href="stylesheets/class.css">
-  <link rel="stylesheet" href="stylesheets/pane1.css">
-  <link rel="stylesheet" href="stylesheets/pane2.css">
+  <link rel="stylesheet" href="stylesheets/pane-criminal-profile.css">
+  <link rel="stylesheet" href="stylesheets/pane-image-submit.css">
   <script src="script/jquery.js" charset="utf-8"></script>
   <script src="script/main.js" charset="utf-8"></script>
 </head>
@@ -27,13 +27,13 @@
         <div class="spacer"></div>
       </div>
       <div id="dropdown">
-        <div href="#pane1" class="button pane-switcher">Criminels Suivi</div>
-        <div href="#pane2" class="button pane-switcher">Nouvelle Recherche</div>
+        <div href="#pane-criminal-profile" class="button pane-switcher">Criminels Suivi</div>
+        <div href="#pane-image-submit" class="button pane-switcher">Nouvelle Recherche</div>
       </div>
     </div>
   </div>
   <div id="core">
-    <div id="pane1" class="active-pane">
+    <div id="pane-criminal-profile" class="active-pane">
       <div class="profile">
         <img src="image/profile.png">
         <div class="column">
@@ -83,12 +83,15 @@
         </div>
       </div>
     </div>
-    <div id="pane2" class="reserve-pane">
+    <div id="pane-image-submit" class="reserve-pane">
       <h1>Select the image to compare</h1>
       <div class="spacer"></div>
       <input type="file" name="file" value="">
-      <div href="#pane3" id="submit-file" class='button'>Submit</div>
+      <div href="#pane-swipe" id="submit-file" class='button'>Submit</div>
       <div class="spacer"></div>
+    </div>
+    <div id="pane-swipe" class="reserve-pane">
+
     </div>
   </div>
   </div>
