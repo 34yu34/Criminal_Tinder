@@ -1,0 +1,31 @@
+
+.profile {
+  width: 70%;
+  background: #eeeeee;
+  margin: 25px auto;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile img {
+  height: 80%;
+  width: 25%;
+  margin: auto;
+}
+
+.profile .column {
+  width: 35%;
+}
+
+.profile .line {
+  margin: 3px 0px;
+}
+
+.profile a {
+  color: #ff0000;
+}
+
+.profile a:hover {
+  color: #aa0000;
+}

@@ -6,6 +6,9 @@
   <title>Criminal Tinder</title>
   <link rel="stylesheet" href="stylesheets/main.css">
   <link rel="stylesheet" href="stylesheets/class.css">
+  <link rel="stylesheet" href="stylesheets/pane1.css">
+  <link rel="stylesheet" href="stylesheets/pane2.css">
+  <script src="script/jquery.js" charset="utf-8"></script>
   <script src="script/main.js" charset="utf-8"></script>
 </head>
 
@@ -24,13 +27,13 @@
         <div class="spacer"></div>
       </div>
       <div id="dropdown">
-        <div class="button">Criminels Suivi</div>
-        <div class="button">Nouvelle Recherche</div>
+        <div href="#pane1" class="button pane-switcher">Criminels Suivi</div>
+        <div href="#pane2" class="button pane-switcher">Nouvelle Recherche</div>
       </div>
     </div>
   </div>
   <div id="core">
-    <div class="profile-view">
+    <div id="pane1" class="active-pane">
       <div class="profile">
         <img src="image/profile.png">
         <div class="column">
@@ -80,6 +83,14 @@
         </div>
       </div>
     </div>
+    <div id="pane2" class="reserve-pane">
+      <h1>Select the image to compare</h1>
+      <div class="spacer"></div>
+      <input type="file" name="file" value="">
+      <div href="#pane3" id="submit-file" class='button'>Submit</div>
+      <div class="spacer"></div>
+    </div>
+  </div>
   </div>
   <div id="footer">
   </div>

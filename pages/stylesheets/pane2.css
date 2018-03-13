@@ -1,0 +1,11 @@
+#pane2 {
+  flex-grow: 1;
+}
+
+#pane2 h1 {
+  text-align: center;
+}
+
+#pane2 input, #pane2 .button {
+  margin: 5px auto;
+}

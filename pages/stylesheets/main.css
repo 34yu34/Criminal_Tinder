@@ -1,7 +1,12 @@
+html {
+  height: 100%
+}
+
 body {
+  min-height: 100%;
   margin: 0px;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column;
 }
 
 a {
@@ -66,49 +71,24 @@ a:hover {
 }
 
 #dropdown .button {
-  background-color: #ff0000;
   text-align: center;
   padding: 3px 0px;
-}
-
-#dropdown .button:hover {
-  background-color: #aa0000
+  border-radius: 0px;
 }
 
 #core {
   display: flex;
   flex-flow: column;
+  flex-grow: 1;
 }
 
-.profile {
-  width: 70%;
-  background: #eeeeee;
-  margin: 25px auto;
-  padding: 25px;
+.active-pane {
   display: flex;
-  justify-content: space-between;
+  flex-flow: column;
 }
 
-.profile img {
-  height: 80%;
-  width: 25%;
-  margin: auto;
-}
-
-.profile .column {
-  width: 35%;
-}
-
-.profile .line {
-  margin: 3px 0px;
-}
-
-.profile a {
-  color: #ff0000;
-}
-
-.profile a:hover {
-  color: #aa0000;
+.reserve-pane {
+  display: none;
 }
 
 #footer {
