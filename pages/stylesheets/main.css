@@ -24,7 +24,7 @@ a:hover {
 #header {
   height: 100px;
   width: 100%;
-  background: #ff0000;
+  background: rgb(30, 139, 195);
   display: flex;
   flex-flow: row nowrap;
 }
@@ -36,7 +36,7 @@ a:hover {
 }
 
 #dropbtn {
-  background-color: #ff0000;
+  background-color: rgb(30, 139, 195);
   cursor: pointer;
   height: 100px;
   width: 80px;
@@ -51,7 +51,7 @@ a:hover {
   width: 50%;
   height: 10%;
   margin: 2px auto;
-  background-color: black;
+  background-color: white;
 }
 
 #dropdown {
@@ -67,7 +67,7 @@ a:hover {
 }
 
 #menu:hover #dropbtn {
-  background: #aa0000;
+  background: rgb(37, 116, 169);
 }
 
 #dropdown .button {
@@ -92,7 +92,7 @@ a:hover {
 }
 
 #footer {
-  background-color: #ff0000;
+  background-color: rgb(30, 139, 195);
   height: 25px;
   width: 100%;
 }
