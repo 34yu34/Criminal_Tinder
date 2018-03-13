@@ -1,13 +1,11 @@
 $(document)
   .ready(function () {
-    $('.pane-switcher')
-      .bind('click', function () {
-        switchActive(this)
-      })
-    $("#submit-file")
-      .bind('click', function () {
-        switchActive(this)
-      })
+    $('.pane-switcher').bind('click', function () {
+      switchActive(this)
+    })
+    $("#submit-file").bind('click', function () {
+      switchActive(this)
+    })
   })
 
 /*********************************************************************
@@ -18,8 +16,7 @@ switchActive = function (object) {
   $('.active-pane')
     .addClass('reserve-pane')
     .removeClass('active-pane')
-  $($(object)
-      .attr('href'))
+  $($(object).attr('href'))
     .addClass('active-pane')
     .removeClass('reserve-pane')
 }
