@@ -47,7 +47,7 @@
 
 p{
 	font-family: verdana;
-	font-size: 20px;
+	font-size: 18px;
 	width: 38%;
 	margin: 0px;
 	padding: 0px;
@@ -56,12 +56,12 @@ p{
 }
 
 #buttonsContainer{
-	height: 32px;
+	height: 33px;
 	margin-top: 15px;
+	padding-left: 4%;
 	border-style: solid;
 	border-color: rgb(37, 116, 169);
 	border-width: 5px;
-	padding-left: 6.5%;
 }
 
 #confirmButton{
@@ -76,9 +76,11 @@ p{
 
 .buttons{
 	margin:4px; 
-	width: 120px; 
+	width: 112px; 
 	display: inline-block; 
 	font-family:verdana;
+	font-size: 13px;
+	float: right;
 }
 
 .select {
@@ -93,7 +95,7 @@ p{
     height: 25px;
     background: #d3d3d3;
     outline: none;
-    opacity: 0.7;
+    opacity: 0.8;
     transition: opacity .2s;
 }
 
