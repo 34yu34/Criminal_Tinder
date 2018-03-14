@@ -3,7 +3,6 @@
   font-style: italic;
   font-weight: bold;
   font-family: helvetica;
-    padding-left: 300px;
 }
 
 .spacer {
@@ -29,4 +28,8 @@
 
 .button:hover {
   background-color: rgb(37, 116, 169);
+}
+
+.profile{
+    font-family: verdana;
 }

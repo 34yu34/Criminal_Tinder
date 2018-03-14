@@ -96,3 +96,13 @@ a:hover {
   height: 25px;
   width: 100%;
 }
+#logoIcon{
+    font-size: 45px;
+    color:white;
+}
+
+#logoLocation{
+    padding-top: 18px;
+    padding-left: 10%;
+    padding-right: 10px;
+}
