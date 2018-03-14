@@ -32,6 +32,12 @@
     background-color: rgb(37, 116, 169);
 }
 
+.return {
+  width: 75px;
+  margin: 5px !important;
+  text-align: center;
+}
+
 .profile{
     font-family: verdana;
 }

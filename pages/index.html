@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="stylesheets/class.css">
   <link rel="stylesheet" href="stylesheets/pane-criminal-profile.css">
   <link rel="stylesheet" href="stylesheets/pane-image-submit.css">
+  <link rel="stylesheet" href="stylesheets/pane-new-search.css">
   <link rel="stylesheet" href="stylesheets/pane-portrait-creator.css">
+  <link rel="stylesheet" href="stylesheets/pane-switch.css">
   <script src="script/jquery.js" charset="utf-8"></script>
   <script src="script/main.js" charset="utf-8"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -33,8 +35,7 @@
       </div>
       <div id="dropdown">
         <div href="#pane-criminal-profile" class="button pane-switcher">Criminels Suivi</div>
-        <div href="#pane-image-submit" class="button pane-switcher">Nouvelle Recherche</div>
-        <div href="#pane-portrait-creator" class="button pane-switcher">Portrait Creator</div>
+        <div href="#pane-new-search" class="button pane-switcher">Nouvelle Recherche</div>
       </div>
     </div>
   </div>
@@ -108,7 +109,15 @@
         </div>
       </div>
     </div>
+    <div id="pane-new-search" class="reserve-pane">
+      <h1>Faire la Recherche Par :</h1>
+      <div class="spacer"></div>
+      <div href="#pane-portrait-creator" class="button">Par portrait robot informatique</div>
+      <div href="#pane-image-submit" class="button">Par image déjà faites</div>
+      <div class="spacer"></div>
+    </div>
     <div id="pane-image-submit" class="reserve-pane">
+      <div href="#pane-new-search" class="return button">return</div>
       <h1>Select the image to compare</h1>
       <div id="portraitRobot">
         <img src="image/portrait_robot.PNG">
@@ -118,6 +127,7 @@
       <div class="spacer"></div>
     </div>
     <div id="pane-portrait-creator" class="reserve-pane">
+      <div href="#pane-new-search" class="button return">return</div>
       <h1>Portrait Creator</h1>
       <div class="line">
         <div id="sliders">
@@ -205,6 +215,7 @@
       </div>
     </div>
     <div id="pane-swipe" class="reserve-pane">
+
     </div>
   </div>
   </div>

@@ -1,0 +1,14 @@
+#pane-new-search {
+  flex-grow: 1;
+}
+
+#pane-new-search h1 {
+  text-align: center;
+}
+
+#pane-new-search .button {
+  width: 350px;
+  font-size: 30px;
+  margin: 30px auto;
+  text-align: center;
+}

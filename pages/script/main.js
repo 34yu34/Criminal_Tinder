@@ -6,6 +6,12 @@ $(document)
     $("#submit-file").bind('click', function () {
       switchActive(this)
     })
+    $("#pane-new-search .button").bind('click', function () {
+      switchActive(this)
+    })
+    $(".return").bind('click', function () {
+      switchActive(this)
+    })
   })
 
 /*********************************************************************
