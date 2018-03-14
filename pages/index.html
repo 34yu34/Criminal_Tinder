@@ -118,10 +118,32 @@
                 <div class="spacer"></div>
             </div>
             <div id="pane-portrait-creator" class="reserve-pane">
-				<h1 class="portrait">Portrait Creator</h1>
-				<div  class = "portrait" id="portraitWrapper">
-                     <img class="portrait" src="image/portrait.jpg">
-                </div>
+				<h1>Portrait Creator</h1>	
+				<div id = "sliders">
+					<div class = "sliderContainer">
+						<select class="select">
+							<option value="0">Male</option>
+							<option value="1">Female</option>
+							<option value="2">Attack Helicopter</option>
+						</select>
+						<p>Sexe</p>
+					</div>
+					<div class = "sliderContainer">
+						<input type="range" min="1" max="100" value="10" class="slider"></input>
+						<p>Cheveux</p>
+					</div>
+					<div class = "sliderContainer">
+						<input type="range" min="1" max="100" value="67" class="slider"></input>
+						<p>Âge</p>
+					</div>
+					<div class = "sliderContainer">
+						<input type="range" min="1" max="100" value="33" class="slider"></input>
+						<p>Teinte (peau)</p>
+					</div>
+				</div>
+				<div id="portraitWrapper">
+					 <img src="image/portrait.jpg">
+				</div>
 			</div>
 			<div id="pane-swipe" class="reserve-pane">
 
