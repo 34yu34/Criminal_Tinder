@@ -7,19 +7,24 @@
 
 #sliders{
 	width: calc(33% - 100px);
-	margin: 25px;
+	margin: 0px 25px;
 	padding: 25px;
 	background: #eeeeee;
-	float: left;
 	display:inline-block;
 }
 
 .sliderContainer{
-	height: 32px;
+	min-height: 32px;
 	margin-bottom: 15px;
-	border-bottom: 3px;
-	border-bottom-color: #d3d3d3;
-	border-bottom-style: solid;
+  padding-bottom: 5px;
+	border-bottom: 3px solid #d3d3d3;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.sliderContainer p {
+  line-height: 32px;
+  vertical-align: middle;
 }
 
 #portraitWrapper{
@@ -27,8 +32,7 @@
 	background: #eeeeee;
 	padding: 25px;
 	display: inline-block;
-	float: left;
-	margin-bottom: 25px;
+	margin-bottom: auto;
 }
 
 #pane-portrait-creator {
@@ -41,6 +45,7 @@
 	background: #eeeeee;
 	margin: 25px auto;
 	padding: 25px;
+  text-align: center;
 }
 
 #pane-portrait-creator img {
@@ -60,36 +65,40 @@ p{
 }
 
 #buttonsContainer{
-	height: 33px;
+	min-height: 33px;
 	margin-top: 15px;
-	padding-left: 4%;
-	border-style: solid;
-	border-color: rgb(37, 116, 169);
-	border-width: 5px;
+	padding: 0px 4%;
+	border: 5px solid #2574AA;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 #confirmButton{
-	float: left;	
 	background: #eeeeee;
-	margin: 25px auto;
+  margin: auto;
+  margin-top: 11%;
 	padding: 25px;
 	display: inline-block;
-	margin-left: 5%;
-	margin-top: 11%;
 }
 
 .buttons{
-	margin:4px; 
-	width: 115px; 
-	display: inline-block; 
+	margin:4px;
+	width: 100px;
+	display: inline-block;
 	font-family:verdana;
 	font-size: 13px;
 	float: right;
 }
 
+#pages-number-container {
+  font-family:verdana;
+  font-size:14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
 .select {
 	display: inline-block;
-	margin-left:16%;
 	width: 130px;
 }
 
