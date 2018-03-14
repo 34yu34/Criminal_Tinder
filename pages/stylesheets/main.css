@@ -88,7 +88,7 @@ a:hover {
 }
 
 .reserve-pane {
-  display: none;
+  display: none !important;
 }
 
 #footer {
