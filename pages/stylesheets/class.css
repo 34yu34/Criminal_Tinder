@@ -1,33 +1,35 @@
 .logo {
-  color: white;
-  font-style: italic;
-  font-weight: bold;
-  font-family: helvetica;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: helvetica;
 }
 
 .spacer {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 .column {
-  display: flex;
-  flex-flow: column nowrap;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .line {
-  display: flex;
-  flex-flow: row nowrap;
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 .button {
-  background-color: rgb(30, 139, 195);
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
+    background-color: rgb(30, 139, 195);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-family: verdana;
 }
 
 .button:hover {
-  background-color: rgb(37, 116, 169);
+    background-color: rgb(37, 116, 169);
 }
 
 .profile{
