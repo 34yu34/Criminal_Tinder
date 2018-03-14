@@ -6,7 +6,7 @@
 }
 
 #sliders{
-	width: 26%;
+	width: calc(33% - 100px);
 	margin: 25px;
 	padding: 25px;
 	background: #eeeeee;
@@ -20,10 +20,11 @@
 }
 
 #portraitWrapper{
-	width: 30%;
+	width: calc(34% - 50px);
 	background: #eeeeee;
-	margin: 25px auto;
 	padding: 25px;
+	display: inline-block;
+	float: left;
 }
 
 #pane-portrait-creator {
@@ -54,9 +55,36 @@ p{
 	text-align: center;
 }
 
+#buttonsContainer{
+	height: 32px;
+	margin-top: 15px;
+	border-style: solid;
+	border-color: rgb(37, 116, 169);
+	border-width: 5px;
+	padding-left: 6.5%;
+}
+
+#confirmButton{
+	float: left;	
+	background: #eeeeee;
+	margin: 25px auto;
+	padding: 25px;
+	display: inline-block;
+	margin-left: 11%;
+	margin-top: 11%;
+}
+
+.buttons{
+	margin:4px; 
+	width: 120px; 
+	display: inline-block; 
+	font-family:verdana;
+}
+
 .select {
 	display: inline-block;
-	margin-left:18%;
+	margin-left:16%;
+	width: 130px;
 }
 
 .slider {

@@ -34,7 +34,7 @@
                 <div id="dropdown">
                     <div href="#pane-criminal-profile" class="button pane-switcher">Criminels Suivi</div>
                     <div href="#pane-image-submit" class="button pane-switcher">Nouvelle Recherche</div>
-					<div href="#pane-portrait-creator" class="button pane-switcher">Création d'un Portrait</div>
+					<div href="#pane-portrait-creator" class="button pane-switcher">Portrait Creator</div>
                 </div>
             </div>
         </div>
@@ -126,24 +126,71 @@
 							<option value="1">Female</option>
 							<option value="2">Attack Helicopter</option>
 						</select>
-						<p>Sexe</p>
+						<p>Sex</p>
+					</div>
+					<div class = "sliderContainer">
+						<select class="select">
+							<option value="0">Glasses</option>
+							<option value="1">Hat</option>
+							<option value="2">Piercing</option>
+						</select>
+						<p>Accessory(ies)</p>
+					</div>
+					<div class = "sliderContainer">
+						<select class="select">
+							<option value="0">Brown</option>
+							<option value="1">Blue</option>
+							<option value="2">Green</option>
+						</select>
+						<p>Colour (eyes)</p>
+					</div>
+					<div class = "sliderContainer">
+						<select class="select">
+							<option value="0">Shaven</option>
+							<option value="1">Beard</option>
+							<option value="2">Mustache</option>
+						</select>
+						<p>Facial Hair</p>
 					</div>
 					<div class = "sliderContainer">
 						<input type="range" min="1" max="100" value="10" class="slider"></input>
-						<p>Cheveux</p>
+						<p>Hair</p>
 					</div>
 					<div class = "sliderContainer">
 						<input type="range" min="1" max="100" value="67" class="slider"></input>
-						<p>Âge</p>
+						<p>Age</p>
 					</div>
 					<div class = "sliderContainer">
 						<input type="range" min="1" max="100" value="33" class="slider"></input>
-						<p>Teinte (peau)</p>
+						<p>Skin Colour</p>
+					</div>
+					<div class = "sliderContainer">
+						<input type="range" min="1" max="100" value="45" class="slider"></input>
+						<p>Nose Size</p>
+					</div>
+					<div class = "sliderContainer">
+						<input type="range" min="1" max="100" value="35" class="slider"></input>
+						<p>Jaw Height</p>
+					</div>
+					<div class = "sliderContainer">
+						<input type="range" min="1" max="100" value="70" class="slider"></input>
+						<p>Cheekbone Height</p>
+					</div>
+					<div id = "buttonsContainer">
+						<div style="font-family:verdana; font-size:20px; width:33%; float:left; margin:4px;">
+							Page 1 of 8
+						</div>
+						<button class="buttons">Previous Page</button>
+						<button class="buttons">Next Page</button>
 					</div>
 				</div>
 				<div id="portraitWrapper">
 					 <img src="image/portrait.jpg">
 				</div>
+				<div id="confirmButton">
+					 <button class="buttons" style="font-size:20px;">Confirm Portrait</button>
+				</div>
+				
 			</div>
 			<div id="pane-swipe" class="reserve-pane">
 
