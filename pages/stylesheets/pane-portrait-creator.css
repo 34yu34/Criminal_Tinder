@@ -1,0 +1,23 @@
+.portrait {
+  width: 35%;
+  background: #eeeeee;
+  margin: 25px auto;
+  padding: 25px;
+  justify-content: space-between;
+}
+
+#portraitWrapper{
+	margin: auto;
+    width: 30%;
+    border: 3px solid black;
+    padding: 10px;
+	margin-bottom:25px;
+}
+
+.portrait img{
+    height: 100%;
+    width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
