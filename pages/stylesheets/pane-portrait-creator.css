@@ -17,6 +17,9 @@
 .sliderContainer{
 	height: 32px;
 	margin-bottom: 15px;
+	border-bottom: 3px;
+	border-bottom-color: #d3d3d3;
+	border-bottom-style: solid;
 }
 
 #portraitWrapper{
@@ -70,7 +73,7 @@ p{
 	margin: 25px auto;
 	padding: 25px;
 	display: inline-block;
-	margin-left: 11%;
+	margin-left: 5%;
 	margin-top: 11%;
 }
 
