@@ -12,6 +12,12 @@ $(document)
     $(".return").bind('click', function () {
       switchActive(this)
     })
+    $(".profile-button").bind('click', function () {
+      switchActive(this)
+    })
+    $("#submit-login").bind('click', function () {
+      switchActive(this)
+    })
   })
 
 /*********************************************************************

@@ -1,5 +1,6 @@
 .profile {
-  width: 45%;
+  width: 55%;
+  min-width: 600px;
   background: #eeeeee;
   margin: 25px auto;
   padding: 25px;
@@ -8,13 +9,14 @@
 }
 
 .profile img {
-  height: 80%;
-  width: 25%;
-  margin: auto;
+  width: 90%;
+  height: 70%;
+  margin: auto 5px;
 }
 
 .profile .column {
   width: 35%;
+  margin: 0px 5px;
 }
 
 .profile .line {
