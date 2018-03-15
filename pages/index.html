@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="stylesheets/main.css">
   <link rel="stylesheet" href="stylesheets/class.css">
   <link rel="stylesheet" href="stylesheets/pane-criminal-profile.css">
+  <link rel="stylesheet" href="stylesheets/pane-login.css">
+  <link rel="stylesheet" href="stylesheets/pane-profile-complete.css">
   <link rel="stylesheet" href="stylesheets/pane-image-submit.css">
   <link rel="stylesheet" href="stylesheets/pane-new-search.css">
   <link rel="stylesheet" href="stylesheets/pane-portrait-creator.css">
@@ -40,10 +42,32 @@
     </div>
   </div>
   <div id="core">
-    <div id="pane-criminal-profile" class="active-pane">
+    <div id="pane-login" class="active-pane">
+      <div class="spacer"></div>
+      <h1>Login</h1>
+      <div class="container">
+        <div class="line">
+          <div class="text-box">Username :</div>
+          <div class="spacer"></div>
+          <input type="text" name="username" value="">
+        </div>
+        <div class="line">
+          <div class="text-box">Password :</div>
+          <div class="spacer"></div>
+          <input type="password" name="password" value="">
+        </div>
+        <input href="#pane-criminal-profile" id="submit-login" type='submit' name="login-submit" value="submit">
+      </div>
+      <div class="spacer"></div>
+    </div>
+    <div id="pane-criminal-profile" class="reserve-pane">
       <h1 class="profile">Criminal history results</h1>
       <div class="profile">
-        <img src="image/profile_mugshot.PNG">
+        <div class="column">
+          <img src="image/profile_mugshot.PNG">
+          <div class="spacer"></div>
+          <div href="#pane-profile-complete" class="button profile-button">Complete Profile</div>
+        </div>
         <div class="column">
           <div class="line"><strong>Match(%) : 89</strong></div>
           <div class="line">Name : Garrett I. Hendrix</div>
@@ -52,7 +76,6 @@
           <div class="line">School : N/A</div>
           <div class="line">Work : Crown Books</div>
           <div class="line">Witness : N/A </div>
-          <div class="line">Notes : N/A</div>
         </div>
         <div class="column">
           <div class="line">Sexe : male</div>
@@ -63,9 +86,14 @@
           <div class="spacer"></div>
           <a href="#">Remove</a>
         </div>
+        <div class="column">Notes : N/A <a href="#">Add notes</a> </div>
       </div>
       <div class="profile">
-        <img src="image/profile_mugshot2.PNG">
+        <div class="column">
+          <img src="image/profile_mugshot2.PNG">
+          <div class="spacer"></div>
+          <div href="#pane-profile-complete" class="button profile-button">Complete Profile</div>
+        </div>
         <div class="column">
           <div class="line"><strong>Match(%) : 78</strong></div>
           <div class="line">Name : Carl S. Hefley</div>
@@ -74,7 +102,6 @@
           <div class="line">School : Ecole Polytechnique</div>
           <div class="line">Work : N/A</div>
           <div class="line">Witness : N/A</div>
-          <div class="line">Notes : N/A</div>
         </div>
         <div class="column">
           <div class="line">Sexe : male</div>
@@ -85,9 +112,14 @@
           <div class="spacer"></div>
           <a href="#">Remove</a>
         </div>
+        <div class="column">Notes : N/A <a href="#">Add notes</a> </div>
       </div>
       <div class="profile">
-        <img src="image/profile_mugshot3.PNG">
+        <div class="column">
+          <img src="image/profile_mugshot3.PNG">
+          <div class="spacer"></div>
+          <div href="#pane-profile-complete" class="button profile-button">Complete Profile</div>
+        </div>
         <div class="column">
           <div class="line"><strong>Match(%) : 97</strong></div>
           <div class="line">Name : Billy Bouchard</div>
@@ -96,7 +128,6 @@
           <div class="line">School : Mcgill University</div>
           <div class="line">Work : N/A</div>
           <div class="line">Witness : Ronald M. Nunez</div>
-          <div class="line">Notes : burglary, grand theft</div>
         </div>
         <div class="column">
           <div class="line">Sexe : male</div>
@@ -107,6 +138,34 @@
           <div class="spacer"></div>
           <a href="#">Remove</a>
         </div>
+        <div class="column">Notes : N/A <a href="#">Add notes</a> </div>
+      </div>
+    </div>
+    <div id="pane-profile-complete" class="reserve-pane">
+      <div href="#pane-criminal-profile" class="return button">return</div>
+      <div class="line top-line">
+        <div class="spacer"></div>
+        <div class="column">
+          <img src="image/profile_mugshot3.PNG">
+          <div class="column">notes :N/A <a href="#">add notes</a> </div>
+        </div>
+        <div class="column">
+          <div class="line"><strong>Match(%) : 97</strong></div>
+          <div class="line">Name : Billy Bouchard</div>
+          <div class="line">Birthday : March 30, 1978</div>
+          <div class="line">Address : 976 Maloy Court</div>
+          <div class="line">School : Mcgill University</div>
+          <div class="line">Work : N/A</div>
+          <div class="line">Witness : Ronald M. Nunez</div>
+          <div class="line">Sexe : male</div>
+          <div class="line">Height : 6'7"</div>
+          <div class="line">Weight : 145.9 pounds</div>
+          <div class="line">Eye Color : blue</div>
+          <div class="line">Blood Type: O-</div>
+          <div class="spacer"></div>
+          <a href="#">Remove</a>
+        </div>
+        <div class="spacer"></div>
       </div>
     </div>
     <div id="pane-new-search" class="reserve-pane">
@@ -215,9 +274,7 @@
       </div>
     </div>
     <div id="pane-swipe" class="reserve-pane">
-
     </div>
-  </div>
   </div>
   <div id="footer">
   </div>

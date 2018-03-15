@@ -1,0 +1,25 @@
+#pane-login {
+  flex-grow: 1;
+}
+
+#pane-login h1 {
+  text-align: center;
+}
+
+#pane-login .container {
+  margin: 0px auto;
+  padding: 25px;
+  display: flex;
+  flex-flow: column;
+  background-color: #eeeeee;
+}
+
+#pane-login .line {
+  margin: 5px 0px;
+}
+
+#submit-login {
+  width: 150px;
+  margin: 20px auto;
+
+}

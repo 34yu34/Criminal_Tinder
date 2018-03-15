@@ -35,6 +35,17 @@ a:hover {
   line-height: 100px;
 }
 
+#logoIcon{
+    font-size: 45px;
+    color:white;
+}
+
+#logoLocation{
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #dropbtn {
   background-color: rgb(30, 139, 195);
   cursor: pointer;
@@ -95,17 +106,4 @@ a:hover {
   background-color: rgb(30, 139, 195);
   height: 25px;
   width: 100%;
-}
-#logoIcon{
-    font-size: 45px;
-    color:white;
-}
-
-#logoLocation{
-    padding-top: 18px;
-    padding-left: 100px;
-    padding-right: 10px;
-}
-#portraitRobot{
-    text-align: center;
 }

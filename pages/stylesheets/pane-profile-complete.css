@@ -1,0 +1,16 @@
+#pane-profile-complete {
+  flex-grow: 1
+}
+
+#pane-profile-complete .top-line {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+#pane-profile-complete .column {
+  margin: 0px 20px;
+}
+
+#pane-profile-complete .line {
+  margin: 3px 0px;
+}

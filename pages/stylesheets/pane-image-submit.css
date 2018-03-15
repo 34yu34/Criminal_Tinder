@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+#portraitRobot{
+    text-align: center;
+}
+
 #pane-image-submit input, #pane-image-submit .button {
   margin: 5px auto;
 }
