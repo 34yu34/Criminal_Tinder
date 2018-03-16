@@ -22,6 +22,10 @@ a:hover {
     color: #5258EB;
 }
 
+h2 {
+  text-align: center;
+}
+
 #header {
     height: 100px;
     width: 100%;

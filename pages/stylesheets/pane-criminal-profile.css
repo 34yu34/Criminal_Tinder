@@ -17,11 +17,13 @@
 .profile .column {
   width: 35%;
   margin: 0px 5px;
+  min-height: 180px;
 }
 
 .profile .line {
   margin: 3px 0px;
 }
+
 
 .profile a {
   color: #ff0000;
@@ -29,4 +31,9 @@
 
 .profile a:hover {
   color: #aa0000;
+}
+
+#pane-criminal-profile .draw-line {
+  min-width: 600px;
+  width: 60%;
 }
